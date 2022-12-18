@@ -8,17 +8,16 @@ const Jumbotron = () => {
     <>
       <Container className="d-flex mt-4 p-0">
         <Card
-          className="d-flex justify-content-center mx-5 border-0 ps-5"
+          className="d-flex justify-content-center mx-5 border-0 ps-5 position-relative"
           style={{ width: "80%" }}
         >
-          <Card.Img src={JumbotronIcon} className="" />
+            <Card.Img src={JumbotronIcon}/>
 
-          <Card.Img
-            fluid
-            src={Rec2}
-            style={{ left: "700px", position: "absolute", width: "45%" }}
+            <Card.Img
+              fluid
+              src={Rec2}
+              style={{ left: "700px", position: "absolute", width: "45%" }}
           />
-
           <Card.Body
             className="d-flex justify-content-center flex-column text-white ms-5 mt-2"
             style={{ width: "50%", position: "absolute" }}
